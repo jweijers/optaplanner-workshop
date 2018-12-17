@@ -11,9 +11,6 @@
     <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
   </scoreDirectorFactory>
 
-  <!--<termination>-->
-    <!--<minutesSpentLimit>5</minutesSpentLimit>-->
-  <!--</termination>-->
   <constructionHeuristic>
     <constructionHeuristicType>FIRST_FIT_DECREASING</constructionHeuristicType>
   </constructionHeuristic>
@@ -27,12 +24,6 @@
       <subChainSwapMoveSelector>
         <selectReversingMoveToo>true</selectReversingMoveToo>
       </subChainSwapMoveSelector>
-      <!--<moveIteratorFactory>-->
-        <!--<moveIteratorFactoryClass>org.optaplanner.examples.vehiclerouting.solver.move.RideChangeMoveIteratorFactory</moveIteratorFactoryClass>-->
-      <!--</moveIteratorFactory>-->
-      <!--<moveIteratorFactory>-->
-        <!--<moveIteratorFactoryClass>org.optaplanner.examples.vehiclerouting.solver.move.RideSwapMoveIteratorFactory</moveIteratorFactoryClass>-->
-      <!--</moveIteratorFactory>-->
     </unionMoveSelector>
     <acceptor>
       <lateAcceptanceSize>200</lateAcceptanceSize>
