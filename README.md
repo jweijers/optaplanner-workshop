@@ -1,11 +1,11 @@
 # OCS Optaplanner workshop
 
-This document contains instructions for the OCS Optaplanner workshop. All exercises come
+This document contains instructions for the OCS Optaplanner workshop. Most exercises come
 from [Red Hat Optaplanner instructions bundle](http://www.optaplanner.org/learn/training.html).
 
 ## Lab 101: No more than 4 processes per computer
 
-The customer’s use case is closely resembles the OptaPlanner example CloudBalancing. But there’s 1 big difference:
+The customer’s use case closely resembles the OptaPlanner example CloudBalancing. But there’s 1 big difference:
 * Don’t assign too many processes to the same computer
 
 ### Preparation
@@ -33,7 +33,7 @@ Add a new hard constraint: no computer should have more than 4 processes assigne
 * Read up about [score traps](http://docs.optaplanner.org/latest/optaplanner-docs/html_single/index.html#scoreTrap), especially if 100computer-300processes.xml does not become feasible.
 
 ## Lab 102: No process should hog half the CPU power
-The customer’s use case is closely resembles the OptaPlanner example CloudBalancing. But there’s 1 big difference:
+The customer’s use case closely resembles the OptaPlanner example CloudBalancing. But there’s 1 big difference:
 * Don’t let a process hog half the CPU power of a computer (unless the computer doesn’t have much CPU).
   
 ### Preparation
@@ -67,7 +67,7 @@ The customer’s use case is closely resembles the OptaPlanner example CloudBala
 * Add a new score rule in the file cloudBalancingScoreRules.drl and reuse that method.
 
 ## Lab 103: Distribute network bandwidth fairly
-The customer’s use case is closely resembles the OptaPlanner example CloudBalancing. But there are differences:
+The customer’s use case closely resembles the OptaPlanner example CloudBalancing. But there are differences:
 * The computers are already bought, so we might as well use them all
 * All computers have the same network bandwidth.
 * The network bandwidth should be load balanced (= distributed fairly) across all computers.
