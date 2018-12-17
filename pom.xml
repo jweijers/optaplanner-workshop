@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.optaplanner.training</groupId>
+  <artifactId>optaplanner-training</artifactId>
+  <packaging>pom</packaging>
+  <version>7.15.0-ocs</version>
+
+  <name>OptaPlanner training</name>
+  <description>
+    OptaPlanner solves planning problems.
+    This lightweight, embeddable planning engine implements powerful and scalable algorithms
+    to optimize business resource scheduling and planning.
+
+    This module contains the training labs.
+  </description>
+
+  <properties>
+    <optaplaner.version>7.15.0.Final</optaplaner.version>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.kie</groupId>
+        <artifactId>kie-platform-bom</artifactId>
+        <type>pom</type>
+        <!-- Keep in sync with part of project version -->
+        <version>${optaplaner.version}</version>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <modules>
+    <module>optaplanner-commons</module>
+    <module>optaplanner-training-lab101</module>
+    <module>optaplanner-training-lab101-solution</module>
+    <module>optaplanner-training-lab102</module>
+    <module>optaplanner-training-lab102-solution</module>
+    <module>optaplanner-training-lab103</module>
+    <module>optaplanner-training-lab103-solution</module>
+    <module>optaplanner-training-lab901</module>
+    <module>optaplanner-training-lab901-solution</module>
+    <module>optaplanner-training-lab905</module>
+    <module>optaplanner-training-lab905-solution</module>
+    <module>optaplanner-training-lab906</module>
+    <module>optaplanner-training-lab906-solution</module>
+  </modules>
+  <build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.6.1</version>
+      <configuration>
+        <source>1.8</source>
+        <target>1.8</target>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+</project>
+

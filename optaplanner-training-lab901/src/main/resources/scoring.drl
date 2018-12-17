@@ -1,0 +1,5 @@
+import org.optaplanner.training.election.domain.Election;
+import org.optaplanner.training.election.domain.FederalState;
+import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
+
+global HardSoftScoreHolder scoreHolder;

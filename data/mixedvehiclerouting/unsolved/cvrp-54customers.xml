@@ -1,0 +1,826 @@
+<VrpVehicleRoutingSolution id="1">
+  <id>0</id>
+  <name>A-n55-k9</name>
+  <distanceType>AIR_DISTANCE</distanceType>
+  <distanceUnitOfMeasurement>distance</distanceUnitOfMeasurement>
+  <locationList id="2">
+    <VrpAirLocation id="3">
+      <id>1</id>
+      <latitude>36.0</latitude>
+      <longitude>64.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="4">
+      <id>2</id>
+      <latitude>94.0</latitude>
+      <longitude>47.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="5">
+      <id>3</id>
+      <latitude>10.0</latitude>
+      <longitude>23.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="6">
+      <id>4</id>
+      <latitude>16.0</latitude>
+      <longitude>46.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="7">
+      <id>5</id>
+      <latitude>25.0</latitude>
+      <longitude>79.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="8">
+      <id>6</id>
+      <latitude>41.0</latitude>
+      <longitude>30.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="9">
+      <id>7</id>
+      <latitude>81.0</latitude>
+      <longitude>45.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="10">
+      <id>8</id>
+      <latitude>14.0</latitude>
+      <longitude>79.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="11">
+      <id>9</id>
+      <latitude>42.0</latitude>
+      <longitude>56.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="12">
+      <id>10</id>
+      <latitude>90.0</latitude>
+      <longitude>17.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="13">
+      <id>11</id>
+      <latitude>41.0</latitude>
+      <longitude>39.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="14">
+      <id>12</id>
+      <latitude>21.0</latitude>
+      <longitude>14.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="15">
+      <id>13</id>
+      <latitude>41.0</latitude>
+      <longitude>46.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="16">
+      <id>14</id>
+      <latitude>65.0</latitude>
+      <longitude>96.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="17">
+      <id>15</id>
+      <latitude>13.0</latitude>
+      <longitude>49.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="18">
+      <id>16</id>
+      <latitude>21.0</latitude>
+      <longitude>14.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="19">
+      <id>17</id>
+      <latitude>57.0</latitude>
+      <longitude>2.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="20">
+      <id>18</id>
+      <latitude>14.0</latitude>
+      <longitude>42.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="21">
+      <id>19</id>
+      <latitude>66.0</latitude>
+      <longitude>62.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="22">
+      <id>20</id>
+      <latitude>58.0</latitude>
+      <longitude>96.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="23">
+      <id>21</id>
+      <latitude>5.0</latitude>
+      <longitude>51.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="24">
+      <id>22</id>
+      <latitude>41.0</latitude>
+      <longitude>50.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="25">
+      <id>23</id>
+      <latitude>50.0</latitude>
+      <longitude>99.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="26">
+      <id>24</id>
+      <latitude>84.0</latitude>
+      <longitude>85.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="27">
+      <id>25</id>
+      <latitude>97.0</latitude>
+      <longitude>90.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="28">
+      <id>26</id>
+      <latitude>47.0</latitude>
+      <longitude>76.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="29">
+      <id>27</id>
+      <latitude>11.0</latitude>
+      <longitude>54.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="30">
+      <id>28</id>
+      <latitude>60.0</latitude>
+      <longitude>97.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="31">
+      <id>29</id>
+      <latitude>60.0</latitude>
+      <longitude>89.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="32">
+      <id>30</id>
+      <latitude>58.0</latitude>
+      <longitude>68.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="33">
+      <id>31</id>
+      <latitude>30.0</latitude>
+      <longitude>93.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="34">
+      <id>32</id>
+      <latitude>9.0</latitude>
+      <longitude>60.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="35">
+      <id>33</id>
+      <latitude>47.0</latitude>
+      <longitude>44.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="36">
+      <id>34</id>
+      <latitude>19.0</latitude>
+      <longitude>40.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="37">
+      <id>35</id>
+      <latitude>15.0</latitude>
+      <longitude>40.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="38">
+      <id>36</id>
+      <latitude>88.0</latitude>
+      <longitude>21.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="39">
+      <id>37</id>
+      <latitude>33.0</latitude>
+      <longitude>58.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="40">
+      <id>38</id>
+      <latitude>21.0</latitude>
+      <longitude>51.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="41">
+      <id>39</id>
+      <latitude>57.0</latitude>
+      <longitude>7.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="42">
+      <id>40</id>
+      <latitude>81.0</latitude>
+      <longitude>6.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="43">
+      <id>41</id>
+      <latitude>49.0</latitude>
+      <longitude>6.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="44">
+      <id>42</id>
+      <latitude>51.0</latitude>
+      <longitude>78.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="45">
+      <id>43</id>
+      <latitude>9.0</latitude>
+      <longitude>62.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="46">
+      <id>44</id>
+      <latitude>84.0</latitude>
+      <longitude>36.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="47">
+      <id>45</id>
+      <latitude>95.0</latitude>
+      <longitude>76.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="48">
+      <id>46</id>
+      <latitude>89.0</latitude>
+      <longitude>44.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="49">
+      <id>47</id>
+      <latitude>10.0</latitude>
+      <longitude>49.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="50">
+      <id>48</id>
+      <latitude>69.0</latitude>
+      <longitude>16.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="51">
+      <id>49</id>
+      <latitude>75.0</latitude>
+      <longitude>66.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="52">
+      <id>50</id>
+      <latitude>97.0</latitude>
+      <longitude>11.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="53">
+      <id>51</id>
+      <latitude>74.0</latitude>
+      <longitude>69.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="54">
+      <id>52</id>
+      <latitude>1.0</latitude>
+      <longitude>14.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="55">
+      <id>53</id>
+      <latitude>96.0</latitude>
+      <longitude>91.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="56">
+      <id>54</id>
+      <latitude>46.0</latitude>
+      <longitude>22.0</longitude>
+    </VrpAirLocation>
+    <VrpAirLocation id="57">
+      <id>55</id>
+      <latitude>74.0</latitude>
+      <longitude>92.0</longitude>
+    </VrpAirLocation>
+  </locationList>
+  <depotList id="58">
+    <VrpDepot id="59">
+      <id>1</id>
+      <location class="VrpAirLocation" reference="3"/>
+    </VrpDepot>
+  </depotList>
+  <vehicleList id="60">
+    <VrpVehicle id="61">
+      <id>0</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+    <VrpVehicle id="62">
+      <id>1</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+    <VrpVehicle id="63">
+      <id>2</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+    <VrpVehicle id="64">
+      <id>3</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+    <VrpVehicle id="65">
+      <id>4</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+    <VrpVehicle id="66">
+      <id>5</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+    <VrpVehicle id="67">
+      <id>6</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+    <VrpVehicle id="68">
+      <id>7</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+    <VrpVehicle id="69">
+      <id>8</id>
+      <capacity>100</capacity>
+      <depot reference="59"/>
+    </VrpVehicle>
+  </vehicleList>
+  <rideList id="70">
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="71">
+      <id>2</id>
+      <pickupVisit id="72">
+        <id>2</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="4"/>
+        <ride reference="71"/>
+      </pickupVisit>
+      <deliveryVisit id="73">
+        <id>3</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="5"/>
+        <ride reference="71"/>
+      </deliveryVisit>
+      <size>8</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="74">
+      <id>4</id>
+      <pickupVisit id="75">
+        <id>4</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="6"/>
+        <ride reference="74"/>
+      </pickupVisit>
+      <deliveryVisit id="76">
+        <id>5</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="7"/>
+        <ride reference="74"/>
+      </deliveryVisit>
+      <size>15</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="77">
+      <id>6</id>
+      <pickupVisit id="78">
+        <id>6</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="8"/>
+        <ride reference="77"/>
+      </pickupVisit>
+      <deliveryVisit id="79">
+        <id>7</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="9"/>
+        <ride reference="77"/>
+      </deliveryVisit>
+      <size>16</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="80">
+      <id>8</id>
+      <pickupVisit id="81">
+        <id>8</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="10"/>
+        <ride reference="80"/>
+      </pickupVisit>
+      <deliveryVisit id="82">
+        <id>9</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="11"/>
+        <ride reference="80"/>
+      </deliveryVisit>
+      <size>16</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="83">
+      <id>10</id>
+      <pickupVisit id="84">
+        <id>10</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="12"/>
+        <ride reference="83"/>
+      </pickupVisit>
+      <deliveryVisit id="85">
+        <id>11</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="13"/>
+        <ride reference="83"/>
+      </deliveryVisit>
+      <size>17</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="86">
+      <id>12</id>
+      <pickupVisit id="87">
+        <id>12</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="14"/>
+        <ride reference="86"/>
+      </pickupVisit>
+      <deliveryVisit id="88">
+        <id>13</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="15"/>
+        <ride reference="86"/>
+      </deliveryVisit>
+      <size>15</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="89">
+      <id>14</id>
+      <pickupVisit id="90">
+        <id>14</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="16"/>
+        <ride reference="89"/>
+      </pickupVisit>
+      <deliveryVisit id="91">
+        <id>15</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="17"/>
+        <ride reference="89"/>
+      </deliveryVisit>
+      <size>14</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="92">
+      <id>16</id>
+      <pickupVisit id="93">
+        <id>16</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="18"/>
+        <ride reference="92"/>
+      </pickupVisit>
+      <deliveryVisit id="94">
+        <id>17</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="19"/>
+        <ride reference="92"/>
+      </deliveryVisit>
+      <size>21</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="95">
+      <id>18</id>
+      <pickupVisit id="96">
+        <id>18</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="20"/>
+        <ride reference="95"/>
+      </pickupVisit>
+      <deliveryVisit id="97">
+        <id>19</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="21"/>
+        <ride reference="95"/>
+      </deliveryVisit>
+      <size>14</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="98">
+      <id>20</id>
+      <pickupVisit id="99">
+        <id>20</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="22"/>
+        <ride reference="98"/>
+      </pickupVisit>
+      <deliveryVisit id="100">
+        <id>21</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="23"/>
+        <ride reference="98"/>
+      </deliveryVisit>
+      <size>14</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="101">
+      <id>22</id>
+      <pickupVisit id="102">
+        <id>22</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="24"/>
+        <ride reference="101"/>
+      </pickupVisit>
+      <deliveryVisit id="103">
+        <id>23</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="25"/>
+        <ride reference="101"/>
+      </deliveryVisit>
+      <size>16</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="104">
+      <id>24</id>
+      <pickupVisit id="105">
+        <id>24</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="26"/>
+        <ride reference="104"/>
+      </pickupVisit>
+      <deliveryVisit id="106">
+        <id>25</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="27"/>
+        <ride reference="104"/>
+      </deliveryVisit>
+      <size>20</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="107">
+      <id>26</id>
+      <pickupVisit id="108">
+        <id>26</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="28"/>
+        <ride reference="107"/>
+      </pickupVisit>
+      <deliveryVisit id="109">
+        <id>27</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="29"/>
+        <ride reference="107"/>
+      </deliveryVisit>
+      <size>21</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="110">
+      <id>28</id>
+      <pickupVisit id="111">
+        <id>28</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="30"/>
+        <ride reference="110"/>
+      </pickupVisit>
+      <deliveryVisit id="112">
+        <id>29</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="31"/>
+        <ride reference="110"/>
+      </deliveryVisit>
+      <size>19</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="113">
+      <id>30</id>
+      <pickupVisit id="114">
+        <id>30</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="32"/>
+        <ride reference="113"/>
+      </pickupVisit>
+      <deliveryVisit id="115">
+        <id>31</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="33"/>
+        <ride reference="113"/>
+      </deliveryVisit>
+      <size>9</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="116">
+      <id>32</id>
+      <pickupVisit id="117">
+        <id>32</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="34"/>
+        <ride reference="116"/>
+      </pickupVisit>
+      <deliveryVisit id="118">
+        <id>33</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="35"/>
+        <ride reference="116"/>
+      </deliveryVisit>
+      <size>19</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="119">
+      <id>34</id>
+      <pickupVisit id="120">
+        <id>34</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="36"/>
+        <ride reference="119"/>
+      </pickupVisit>
+      <deliveryVisit id="121">
+        <id>35</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="37"/>
+        <ride reference="119"/>
+      </deliveryVisit>
+      <size>18</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="122">
+      <id>36</id>
+      <pickupVisit id="123">
+        <id>36</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="38"/>
+        <ride reference="122"/>
+      </pickupVisit>
+      <deliveryVisit id="124">
+        <id>37</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="39"/>
+        <ride reference="122"/>
+      </deliveryVisit>
+      <size>14</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="125">
+      <id>38</id>
+      <pickupVisit id="126">
+        <id>38</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="40"/>
+        <ride reference="125"/>
+      </pickupVisit>
+      <deliveryVisit id="127">
+        <id>39</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="41"/>
+        <ride reference="125"/>
+      </deliveryVisit>
+      <size>17</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="128">
+      <id>40</id>
+      <pickupVisit id="129">
+        <id>40</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="42"/>
+        <ride reference="128"/>
+      </pickupVisit>
+      <deliveryVisit id="130">
+        <id>41</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="43"/>
+        <ride reference="128"/>
+      </deliveryVisit>
+      <size>8</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="131">
+      <id>42</id>
+      <pickupVisit id="132">
+        <id>42</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="44"/>
+        <ride reference="131"/>
+      </pickupVisit>
+      <deliveryVisit id="133">
+        <id>43</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="45"/>
+        <ride reference="131"/>
+      </deliveryVisit>
+      <size>17</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="134">
+      <id>44</id>
+      <pickupVisit id="135">
+        <id>44</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="46"/>
+        <ride reference="134"/>
+      </pickupVisit>
+      <deliveryVisit id="136">
+        <id>45</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="47"/>
+        <ride reference="134"/>
+      </deliveryVisit>
+      <size>10</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="137">
+      <id>46</id>
+      <pickupVisit id="138">
+        <id>46</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="48"/>
+        <ride reference="137"/>
+      </pickupVisit>
+      <deliveryVisit id="139">
+        <id>47</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="49"/>
+        <ride reference="137"/>
+      </deliveryVisit>
+      <size>38</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="140">
+      <id>48</id>
+      <pickupVisit id="141">
+        <id>48</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="50"/>
+        <ride reference="140"/>
+      </pickupVisit>
+      <deliveryVisit id="142">
+        <id>49</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="51"/>
+        <ride reference="140"/>
+      </deliveryVisit>
+      <size>10</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="143">
+      <id>50</id>
+      <pickupVisit id="144">
+        <id>50</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="52"/>
+        <ride reference="143"/>
+      </pickupVisit>
+      <deliveryVisit id="145">
+        <id>51</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="53"/>
+        <ride reference="143"/>
+      </deliveryVisit>
+      <size>15</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="146">
+      <id>52</id>
+      <pickupVisit id="147">
+        <id>52</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="54"/>
+        <ride reference="146"/>
+      </pickupVisit>
+      <deliveryVisit id="148">
+        <id>53</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="55"/>
+        <ride reference="146"/>
+      </deliveryVisit>
+      <size>13</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+    <org.optaplanner.examples.vehiclerouting.domain.Ride id="149">
+      <id>54</id>
+      <pickupVisit id="150">
+        <id>54</id>
+        <visitType>PICKUP</visitType>
+        <location class="VrpAirLocation" reference="56"/>
+        <ride reference="149"/>
+      </pickupVisit>
+      <deliveryVisit id="151">
+        <id>55</id>
+        <visitType>DELIVERY</visitType>
+        <location class="VrpAirLocation" reference="57"/>
+        <ride reference="149"/>
+      </deliveryVisit>
+      <size>12</size>
+    </org.optaplanner.examples.vehiclerouting.domain.Ride>
+  </rideList>
+  <visitList id="152">
+    <VrpVisit reference="72"/>
+    <VrpVisit reference="73"/>
+    <VrpVisit reference="75"/>
+    <VrpVisit reference="76"/>
+    <VrpVisit reference="78"/>
+    <VrpVisit reference="79"/>
+    <VrpVisit reference="81"/>
+    <VrpVisit reference="82"/>
+    <VrpVisit reference="84"/>
+    <VrpVisit reference="85"/>
+    <VrpVisit reference="87"/>
+    <VrpVisit reference="88"/>
+    <VrpVisit reference="90"/>
+    <VrpVisit reference="91"/>
+    <VrpVisit reference="93"/>
+    <VrpVisit reference="94"/>
+    <VrpVisit reference="96"/>
+    <VrpVisit reference="97"/>
+    <VrpVisit reference="99"/>
+    <VrpVisit reference="100"/>
+    <VrpVisit reference="102"/>
+    <VrpVisit reference="103"/>
+    <VrpVisit reference="105"/>
+    <VrpVisit reference="106"/>
+    <VrpVisit reference="108"/>
+    <VrpVisit reference="109"/>
+    <VrpVisit reference="111"/>
+    <VrpVisit reference="112"/>
+    <VrpVisit reference="114"/>
+    <VrpVisit reference="115"/>
+    <VrpVisit reference="117"/>
+    <VrpVisit reference="118"/>
+    <VrpVisit reference="120"/>
+    <VrpVisit reference="121"/>
+    <VrpVisit reference="123"/>
+    <VrpVisit reference="124"/>
+    <VrpVisit reference="126"/>
+    <VrpVisit reference="127"/>
+    <VrpVisit reference="129"/>
+    <VrpVisit reference="130"/>
+    <VrpVisit reference="132"/>
+    <VrpVisit reference="133"/>
+    <VrpVisit reference="135"/>
+    <VrpVisit reference="136"/>
+    <VrpVisit reference="138"/>
+    <VrpVisit reference="139"/>
+    <VrpVisit reference="141"/>
+    <VrpVisit reference="142"/>
+    <VrpVisit reference="144"/>
+    <VrpVisit reference="145"/>
+    <VrpVisit reference="147"/>
+    <VrpVisit reference="148"/>
+    <VrpVisit reference="150"/>
+    <VrpVisit reference="151"/>
+  </visitList>
+</VrpVehicleRoutingSolution>

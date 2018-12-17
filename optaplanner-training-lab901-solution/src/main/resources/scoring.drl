@@ -1,0 +1,29 @@
+import org.optaplanner.training.election.domain.Election;
+import org.optaplanner.training.election.domain.FederalState;
+import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScoreHolder;
+
+global HardSoftScoreHolder scoreHolder;
+
+// Hard constraint we must win the election
+
+
+rule "winElection"
+    when
+        accumulate( FederalState ( winningCandidate == "Gamer candidate",
+                                    $electoralVotes : electoralVotes);
+                    $totalElectoralVotes : sum($electoralVotes);
+                    $totalElectoralVotes < 270
+                  )
+    then
+        scoreHolder.addHardConstraintMatch(kcontext, $totalElectoralVotes - 270);
+end
+
+// Soft constraint minimal actual votes
+rule "minimalVotes"
+    when
+         FederalState ( winningCandidate == "Gamer candidate",
+                       $minimalMajority : minimumMajorityPopulation);
+
+        then
+          scoreHolder.addSoftConstraintMatch(kcontext, - $minimalMajority);
+end

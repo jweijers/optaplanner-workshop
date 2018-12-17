@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver>
+    <!-- Domain model configuration -->
+    <scanAnnotatedClasses/>
+
+    <!-- Score configuration -->
+    <scoreDirectorFactory>
+        <!--<easyScoreCalculatorClass>org.optaplanner.training.election.score.ElectionGamingEasyScoreCalculator</easyScoreCalculatorClass>-->
+        <scoreDrl>scoring.drl</scoreDrl>
+    </scoreDirectorFactory>
+
+    <!-- Optimization algorithms configuration -->
+    <termination>
+        <unimprovedSecondsSpentLimit>10</unimprovedSecondsSpentLimit>
+    </termination>
+
+
+    <constructionHeuristic />
+    <localSearch>
+        <unionMoveSelector>
+            <changeMoveSelector/>
+            <swapMoveSelector/>
+            <pillarSwapMoveSelector/>
+        </unionMoveSelector>
+    </localSearch>
+
+</solver>
