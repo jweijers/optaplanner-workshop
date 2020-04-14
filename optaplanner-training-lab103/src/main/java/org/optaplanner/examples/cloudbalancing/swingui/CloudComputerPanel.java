@@ -16,6 +16,12 @@
 
 package org.optaplanner.examples.cloudbalancing.swingui;
 
+import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
+import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
+import org.optaplanner.swing.impl.SwingUtils;
+import org.optaplanner.swing.impl.TangoColorFactory;
+
+import javax.swing.*;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -23,23 +29,8 @@ import java.awt.FlowLayout;
 import java.awt.Graphics;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.AbstractAction;
-import javax.swing.Action;
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
-import javax.swing.JDialog;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JTextField;
-
-import org.optaplanner.examples.cloudbalancing.domain.CloudComputer;
-import org.optaplanner.examples.cloudbalancing.domain.CloudProcess;
-import org.optaplanner.swing.impl.SwingUtils;
-import org.optaplanner.swing.impl.TangoColorFactory;
 
 public class CloudComputerPanel extends JPanel {
 
@@ -184,7 +175,7 @@ public class CloudComputerPanel extends JPanel {
             memoryBar.addProcessValue(process.getRequiredMemory());
             usedNetworkBandwidth += process.getRequiredNetworkBandwidth();
             networkBandwidthBar.addProcessValue(process.getRequiredNetworkBandwidth());
-            colorIndex = (colorIndex + 1) % TangoColorFactory.SEQUENCE_1.length;
+            colorIndex = (colorIndex + 1) % TangoColorFactory.SEQUENCE_1.size();
         }
         boolean used = processList.size() > 0;
         updateTotals(usedCpuPower, usedMemory, usedNetworkBandwidth, used);
@@ -261,10 +252,10 @@ public class CloudComputerPanel extends JPanel {
                 int offset = (int) ((double) offsetValue * pixelsPerValue);
                 int processWidth = (int) ((double) processValue * pixelsPerValue) + 1;
                 processWidth = Math.max(processWidth, 1);
-                g.setColor(TangoColorFactory.SEQUENCE_1[colorIndex]);
+                g.setColor(TangoColorFactory.SEQUENCE_1.get(colorIndex));
                 g.fillRect(offset, 0, processWidth, size.height);
                 offsetValue += processValue;
-                colorIndex = (colorIndex + 1) % TangoColorFactory.SEQUENCE_1.length;
+                colorIndex = (colorIndex + 1) % TangoColorFactory.SEQUENCE_1.size();
             }
             if (this.computerValue > 0) {
                 g.setColor(isEnabled() ? Color.BLACK : TangoColorFactory.ALUMINIUM_5);
@@ -320,7 +311,7 @@ public class CloudComputerPanel extends JPanel {
                 JPanel labelAndDeletePanel = new JPanel(new BorderLayout(5, 0));
                 labelAndDeletePanel.add(new JLabel(cloudBalancingPanel.getCloudProcessIcon()), BorderLayout.WEST);
                 JLabel processLabel = new JLabel(process.getLabel());
-                processLabel.setForeground(TangoColorFactory.SEQUENCE_1[colorIndex]);
+                processLabel.setForeground(TangoColorFactory.SEQUENCE_1.get(colorIndex));
                 labelAndDeletePanel.add(processLabel, BorderLayout.CENTER);
                 JPanel deletePanel = new JPanel(new BorderLayout());
                 JButton deleteButton = SwingUtils.makeSmallButton(new JButton(cloudBalancingPanel.getDeleteCloudProcessIcon()));
@@ -344,7 +335,7 @@ public class CloudComputerPanel extends JPanel {
                 assignmentsPanel.add(networkBandwidthField);
                 assignmentsPanel.add(cloudBalancingPanel.createButton(process));
 
-                colorIndex = (colorIndex + 1) % TangoColorFactory.SEQUENCE_1.length;
+                colorIndex = (colorIndex + 1) % TangoColorFactory.SEQUENCE_1.size();
             }
             JPanel fillerAssignmentsPanel = new JPanel(new BorderLayout());
             fillerAssignmentsPanel.add(assignmentsPanel, BorderLayout.NORTH);

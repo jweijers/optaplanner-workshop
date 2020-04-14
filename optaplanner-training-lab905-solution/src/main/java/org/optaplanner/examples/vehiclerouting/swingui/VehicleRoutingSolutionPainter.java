@@ -16,16 +16,6 @@
 
 package org.optaplanner.examples.vehiclerouting.swingui;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Font;
-import java.awt.Graphics2D;
-import java.awt.image.BufferedImage;
-import java.awt.image.ImageObserver;
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import javax.swing.ImageIcon;
-
 import org.optaplanner.core.api.score.buildin.hardsoftlong.HardSoftLongScore;
 import org.optaplanner.examples.common.swingui.latitudelongitude.LatitudeLongitudeTranslator;
 import org.optaplanner.examples.vehiclerouting.domain.Customer;
@@ -39,6 +29,16 @@ import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedC
 import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedDepot;
 import org.optaplanner.examples.vehiclerouting.domain.timewindowed.TimeWindowedVehicleRoutingSolution;
 import org.optaplanner.swing.impl.TangoColorFactory;
+
+import javax.swing.*;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Font;
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+import java.awt.image.ImageObserver;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 public class VehicleRoutingSolutionPainter {
 
@@ -65,10 +65,10 @@ public class VehicleRoutingSolutionPainter {
                 new ImageIcon(getClass().getResource(IMAGE_PATH_PREFIX + "vehicleChocolate.png")),
                 new ImageIcon(getClass().getResource(IMAGE_PATH_PREFIX + "vehiclePlum.png")),
         };
-        if (vehicleImageIcons.length != TangoColorFactory.SEQUENCE_1.length) {
+        if (vehicleImageIcons.length != TangoColorFactory.SEQUENCE_1.size()) {
             throw new IllegalStateException("The vehicleImageIcons length (" + vehicleImageIcons.length
                     + ") should be equal to the TangoColorFactory.SEQUENCE length ("
-                    + TangoColorFactory.SEQUENCE_1.length + ").");
+                    + TangoColorFactory.SEQUENCE_1.size() + ").");
         }
     }
 
@@ -141,7 +141,7 @@ public class VehicleRoutingSolutionPainter {
         int colorIndex = 0;
         // TODO Too many nested for loops
         for (Vehicle vehicle : solution.getVehicleList()) {
-            g.setColor(TangoColorFactory.SEQUENCE_2[colorIndex]);
+            g.setColor(TangoColorFactory.SEQUENCE_2.get(colorIndex));
             Customer vehicleInfoCustomer = null;
             long longestNonDepotDistance = -1L;
             int load = 0;
@@ -194,7 +194,7 @@ public class VehicleRoutingSolutionPainter {
                 g.drawString(load + " / " + vehicle.getCapacity(),
                         x + 1, (ascending ? y - 1 : y + vehicleInfoHeight + 1));
             }
-            colorIndex = (colorIndex + 1) % TangoColorFactory.SEQUENCE_2.length;
+            colorIndex = (colorIndex + 1) % TangoColorFactory.SEQUENCE_2.size();
         }
 
         // Legend
