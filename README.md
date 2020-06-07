@@ -1,6 +1,6 @@
-# OCS Optaplanner workshop
+# Optaplanner workshop
 
-This document contains instructions for the OCS Optaplanner workshop. Most exercises come
+This document contains instructions for the Optaplanner workshop. Most exercises come
 from [Red Hat Optaplanner instructions bundle](http://www.optaplanner.org/learn/training.html).
 
 ## Lab 101: No more than 4 processes per computer
